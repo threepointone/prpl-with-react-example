@@ -1,0 +1,32 @@
+{
+  "name": "prpl-with-react-example",
+  "version": "1.0.0",
+  "description": "we got this",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js --content-base public/ --history-api-fallback --compress --inline --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glamor": "^2.15.5",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-modules": "^1.0.8",
+    "react-router": "^4.0.0-alpha.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.2.5",
+    "babel-preset-latest": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "eslint": "^3.6.0",
+    "eslint-config-standard": "^6.0.1",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-react": "^6.3.0",
+    "eslint-plugin-standard": "^2.0.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  }
+}
